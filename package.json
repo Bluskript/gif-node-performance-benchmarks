@@ -1,0 +1,41 @@
+{
+  "name": "gif-node-performance-benchmarks",
+  "version": "1.0.0",
+  "description": "GIF benchmark comparison",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./test/index.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluskript/gif-node-performance-benchmarks.git"
+  },
+  "author": "Bluskript, Geoxor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bluskript/gif-node-performance-benchmarks/issues"
+  },
+  "homepage": "https://github.com/Bluskript/gif-node-performance-benchmarks#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "canvas": "^2.8.0",
+    "chalk": "^4.1.2",
+    "concat-stream": "^2.0.0",
+    "gif-encoder": "^0.7.2",
+    "gifencoder": "^2.0.1",
+    "gifwrap": "^0.9.2",
+    "jimp": "^0.16.1",
+    "microtime": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.1",
+    "@types/concat-stream": "^1.6.1",
+    "@types/gif-encoder": "^0.7.1",
+    "@types/gifencoder": "^2.0.1",
+    "@types/node": "^16.6.1",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^8.0.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
